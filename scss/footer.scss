@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+footer a {
+   text-decoration: none;
+    color: gray;
+}

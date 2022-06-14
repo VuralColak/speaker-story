@@ -1,0 +1,84 @@
+.nav2, .burger {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em;
+}
+
+nav .left a {
+    padding-left: 1em;
+    color: black;
+    font-size: x-large;
+}
+
+nav .right a {
+    padding-right: 1em;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.speaker img {
+    width: 2em;
+    height: 2em;
+}
+
+
+
+@media (max-width: 850px){
+
+    nav .right {
+        display: none;
+    }
+
+    .burger {
+        display: unset;
+        font-size: 35px;
+        cursor: pointer;
+        margin-right: 1em;
+    }
+
+    .nav2 li a{
+        text-decoration: none;
+        background-color: gray;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+    }
+
+    .nav2 li {
+        list-style-type: none;
+        text-align: center;
+        margin: 30px;
+    }
+
+    nav:hover ~ .nav2, nav2:hover ~ .nav2 {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5em 1.5em;
+    }
+    
+    nav .left a {
+        padding-left: 0.5em;
+    }
+
+    .header {
+        margin: 0px;
+    }
+
+    main .header .button1 {
+        width: 100%;
+        justify-content: center;
+    }
+}
